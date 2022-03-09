@@ -1,6 +1,6 @@
 import React from "react";
 
-const ColorhullMessage = (props) => {
+export const ColorfullMessage = (props) => {
   console.log('カラフル');
 	const {color, children} = props;
   const contenStyle = {
@@ -11,5 +11,3 @@ const ColorhullMessage = (props) => {
 		<p style={contenStyle}>{children}</p>
 	);
 }
-
-export default ColorhullMessage;
