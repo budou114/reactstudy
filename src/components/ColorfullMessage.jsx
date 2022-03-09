@@ -1,6 +1,7 @@
 import React from "react";
 
 const ColorhullMessage = (props) => {
+  console.log('カラフル');
 	const {color, children} = props;
   const contenStyle = {
     color,
